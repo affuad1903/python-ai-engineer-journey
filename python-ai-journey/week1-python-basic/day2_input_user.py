@@ -56,3 +56,34 @@ print("Nama:", nama)
 print("Umur:", umur)
 print("Tinggi:", tinggi)
 print("Mahasiswa:", is_student)
+
+#operrasi aritmatika
+#pertambahan
+angka1 = 10
+angka2 = 5
+hasil = angka1 + angka2
+print("Hasil penjumlahan:",angka1,"+",angka2,"=", hasil)
+#pengurangan
+hasil = angka1 - angka2
+print("Hasil pengurangan:",angka1,"-",angka2,"=", hasil)
+#perkalian
+hasil = angka1 * angka2
+print("Hasil perkalian:",angka1,"*",angka2,"=", hasil)
+#pembagian
+hasil = angka1 / angka2
+print("Hasil pembagian:",angka1,"/",angka2,"=", hasil)
+#pembagian dengan pembulatan ke bawah / floor division
+hasil = angka1 // angka2
+print("Hasil pembagian dengan pembulatan ke bawah:",angka1,"//",angka2,"=", hasil)
+#modulus / sisa bagi
+hasil = angka1 % angka2
+print("Hasil modulus / sisa bagi:",angka1,"%",angka2,"=", hasil)
+#pangkat
+hasil = angka1 ** angka2
+print("Hasil pangkat:",angka1,"**",angka2,"=", hasil)
+
+#operasi aritmatika dengan input user
+angka1 = float(input("Masukkan angka pertama: "))
+angka2 = float(input("Masukkan angka kedua: "))
+hasil = angka1 + angka2
+print("Hasil penjumlahan:", angka1, "+", angka2, "=", hasil)
